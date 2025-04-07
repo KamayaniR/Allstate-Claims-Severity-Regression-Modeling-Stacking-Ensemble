@@ -15,5 +15,29 @@
      Training Data: 188,318 rows × 1,192 features
      Test Data: 125,546 rows × 1,192 features
      Target Variable: loss (continuous float value)
+     
+   ## Data Preprocessing
+   - Removed ID column
+   - Applied One-Hot Encoding to categorical variables
+   - Ensured consistent feature alignment between train and test sets
+   - Stratified split for training/validation to maintain distribution
+
+   ## Models Developed
+   # Baseline Regressors
+     1. Decision Tree
+     2. Random Forest
+     3. Gradient Boosting
+    All models were evaluated using Root Mean Squared Error (RMSE).
+    
+   # Hyperparameter Tuning
+    - Used RandomizedSearchCV to optimize hyperparameters.
+    - Evaluation via K-Fold Cross-Validation.
+
+
+   
+   
+
+
+
 
 
