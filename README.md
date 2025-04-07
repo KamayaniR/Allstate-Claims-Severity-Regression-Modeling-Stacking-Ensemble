@@ -24,10 +24,11 @@
 
    ## Models Developed
    # Baseline Regressors
-     1. Decision Tree
-     2. Random Forest
-     3. Gradient Boosting
-    All models were evaluated using Root Mean Squared Error (RMSE).
+   1. Decision Tree
+   2. Random Forest
+   3. Gradient Boosting
+      
+   All models were evaluated using Root Mean Squared Error (RMSE).
     
    # Hyperparameter Tuning
     - Used RandomizedSearchCV to optimize hyperparameters.
