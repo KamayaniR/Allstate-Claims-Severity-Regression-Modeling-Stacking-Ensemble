@@ -31,8 +31,9 @@
    All models were evaluated using Root Mean Squared Error (RMSE).
     
    # Hyperparameter Tuning
-    - Used RandomizedSearchCV to optimize hyperparameters.
-    - Evaluation via K-Fold Cross-Validation.
+   
+   - Used RandomizedSearchCV to optimize hyperparameters.
+   - Evaluation via K-Fold Cross-Validation.
 
 
    
