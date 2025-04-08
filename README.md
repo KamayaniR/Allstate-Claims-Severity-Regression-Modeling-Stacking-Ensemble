@@ -35,6 +35,18 @@
    - Used RandomizedSearchCV to optimize hyperparameters.
    - Evaluation via K-Fold Cross-Validation.
 
+   # Stacking Ensemble
+   Built a 1-layer stacking model with:
+   - Base Learners: Decision Tree, Random Forest, Gradient Boosting
+   - Meta-Learner: Gradient Boosting Regressor
+     
+     # Process:
+   1. Fit base models on training data
+   2. Generate predictions as input for meta-model
+   3. Fit meta-model on these new inputs
+
+     
+
 
    
    
