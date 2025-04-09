@@ -46,11 +46,28 @@
    3. Fit meta-model on these new inputs.
 
    ## Kaggle Submission Results:
-           Model              Kaggle Private Score (RMSE)
-        Gradient Boosting     1249.12925 (Best)
-        Random Forest         ~1255 (approx.)
-        Decision Tree         Higher error (baseline only)
-        Stacked Ensemble      2233.13579 (Overfitting)
+           Model                Kaggle Private Score (RMSE)
+        Gradient Boosting -->     1249.12925 (Best)
+        Random Forest -->         ~1255 (approx.)
+        Decision Tree -->         Higher error (baseline only)
+        Stacked Ensemble -->      2233.13579 (Overfitting)
+   - Gradient Boosting Regressor achieved the lowest error and was the best standalone model.
+   - Stacked model underperformed due to blending or overfitting issues.
+
+   ##  Key Learnings
+   - Gradient Boosting was the most effective single model.
+   - Stacking is powerful but must be tuned carefully to avoid poor generalization.
+   - Feature selection helps simplify models, but excessive reduction can degrade performance.
+   - Cross-validation and leaderboard feedback are crucial in regression tasks.
+
+   ## Future Enhancements
+   - Use Advanced Stacking (e.g., out-of-fold predictions)
+   - Try XGBoost, LightGBM, or CatBoost
+   - Apply log-transform on skewed loss values
+   - Explore early stopping in Gradient Boosting
+   - Use Blending instead of Stacking to reduce overfitting
+
+
 
 
    
