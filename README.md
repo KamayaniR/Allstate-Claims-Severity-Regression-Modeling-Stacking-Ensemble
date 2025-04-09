@@ -41,9 +41,20 @@
    - Meta-Learner: Gradient Boosting Regressor
      
      # Process:
-   1. Fit base models on training data
-   2. Generate predictions as input for meta-model
-   3. Fit meta-model on these new inputs
+   1. Fit base models on training data.
+   2. Generate predictions as input for meta-model.
+   3. Fit meta-model on these new inputs.
+
+   ## Kaggle Submission Results:
+           Model              Kaggle Private Score (RMSE)
+        Gradient Boosting     1249.12925 (Best)
+        Random Forest         ~1255 (approx.)
+        Decision Tree         Higher error (baseline only)
+        Stacked Ensemble      2233.13579 (Overfitting)
+
+
+   
+
 
      
 
