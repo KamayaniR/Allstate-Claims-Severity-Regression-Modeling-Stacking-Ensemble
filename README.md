@@ -1,6 +1,6 @@
 # Allstate Claims Severity Regression Modelling Stacking Ensemble
-  This project is developed for the Master's course CIS 508 - Machine Learning
-  Kaggle Competition: Allstate Claims Severity
+  - This project is developed for the Master's course CIS 508 - Machine Learning
+  - Kaggle Competition: Allstate Claims Severity
 
   ## Problem Statement
   Allstate Insurance aimed to build a model that can predict the severity of insurance claims based on anonymized policyholder and claim features. The challenge was to
