@@ -1,3 +1,6 @@
+ This project is developed for the Master's course CIS 508 - Machine Learning
+ Kaggle Competition: Allstate Claims Severity
+ 
 # Allstate Claims Severity Regression Modeling Stacking Ensemble
 
   ## Problem Statement
